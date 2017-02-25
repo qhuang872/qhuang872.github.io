@@ -194,9 +194,13 @@ h4{
 	margin-left:5%;
 }
 #icons{
-	width:70%;
+	width:319px;
 	margin:0 auto;
 	padding-left:23.5%;
 	margin-bottom:3%;
 }
-
+#phone-icon,
+#email-icon,
+#github-icon{
+	margin-right:40px;
+}
