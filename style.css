@@ -190,13 +190,9 @@ h4{
 	font-size:2em;
 	text-align:center;
 }
-.contact-icon{
-	display:inline;
-}
 #icons{
-	width:319px;
+	width:330px;
 	margin:0 auto;
-	padding-left:23.5%;
 	margin-bottom:3%;
 }
 #phone-icon,
