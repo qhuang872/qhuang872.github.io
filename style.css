@@ -1,0 +1,202 @@
+*{
+	font-family:ubuntu,courier;
+}
+header{
+	width: 100%;
+	margin: 0 auto;
+	min-height: 450px;
+	background: url("img/lake.jpg") top center no-repeat fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding-top:150px;
+}
+@media screen and (min-width: 1920px){
+	header{
+		min-height:550px;
+	}
+}
+.typed-cursor{
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+@keyframes blink{
+	0% {opacity:1;}
+	50% {opacity:0;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes blink{
+	0% {opacity:1;}
+	50% {opacity:0;}
+	100% {opacity:1;}
+}
+@-moz-keyframes blink{
+	0% {opacity:1;}
+	50% {opacity:0;}
+	100% {opacity:1;}
+}
+.terminal-wrap{
+	width:500px;
+	height:150px;
+	margin:0 auto;
+	border:0.5px solid gray;
+	border-radius:15px;
+	overflow: hidden;
+}
+.terminal-title{
+	text-align:center;
+	background:white;
+	background:-webkit-linear-gradient(white,#BEB2BC);
+	background:-moz-linear-gradient(white,#BEB2BC);
+	background:linear-gradient(white,#BEB2BC);
+}
+.terminal-body{
+	padding-left:0.6em;
+	font-size:1.5em;
+	background-color:#201F20;
+	color:white;
+	min-height:98%;
+}
+.name{
+	text-align:center;
+	font-size:3.6em; 
+	font-weight:600;
+	color:white;
+	text-shadow: 1px 1px gray;
+}
+.main{
+	width:100%;
+}
+.about-me{
+	width:70%;
+	height:350px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.selfie{
+	display:inline-block;
+	width:40%;
+	height:inherit;
+	background:url("img/selfie.png") center center no-repeat;
+	/*background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	*/
+}
+.about-me-text{
+	display:inline-block;
+	vertical-align:top;
+	margin-left:-4px;
+	width:60%;
+	height:inherit;
+	padding-top:20px;
+
+}
+#about-me{
+	font-size:2em;
+}
+#intro{
+	font-size:1.1em;
+}
+hr{
+	width:70%;
+}
+.skill{
+	width:70%;
+	margin:0 auto;
+	height:360px;
+	overflow:hidden;
+}
+.technologies{
+	width:60%;
+	height:inherit;
+	vertical-align:top;
+	display:inline-block;
+}
+.robot{
+	margin-left:-4px;
+	width:40%;
+	height:inherit;
+	display:inline-block;
+	padding-top:10px;	
+	padding-left:10%;
+}
+.talk{
+	color:gray;
+	font-weight:600;
+	font-size:1.5em;
+}
+.dark{
+	color:black;
+}
+.input-box{
+	width: 100%;
+	background-color: black;
+	border-radius: 10px;
+}
+.projects{
+	width:70%;
+	height:auto;
+	margin:0 auto;
+	overflow:hidden;
+}
+.project{
+	padding-left:10%;
+}
+h4{
+	margin:0;
+}
+#project-section{
+	text-align:center;
+	font-size:2em;
+}
+#project1{
+	display:inline-block;
+	width:50%;
+	overflow:hidden;
+}
+.cat,
+.spaceship,
+.fallenhero,
+.opus,
+.image img{
+	width:80%;
+}
+#project2{
+	display:inline-block;
+	width:50%;
+	margin-left:-4px;
+	overflow:hidden;
+	vertical-align:top;
+}
+#project3{
+	width:50%;
+	margin-top:5%;
+	display:inline-block;
+}
+#project4{
+	width:50%;
+	display:inline-block;
+	margin-left:-4px;
+
+
+}
+#contact-section{
+	font-weight:600;
+	font-size:2em;
+	text-align:center;
+}
+.contact-icon{
+	margin-left:5%;
+}
+#icons{
+	width:70%;
+	margin:0 auto;
+	padding-left:23.5%;
+	margin-bottom:3%;
+}
+
