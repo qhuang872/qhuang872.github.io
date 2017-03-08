@@ -19,7 +19,7 @@ header{
 }
 @media screen and (min-width:480px){
 	."terminal-wrap"{
-		width:200px;
+		width:100px;
 	}
 }
 .typed-cursor{
