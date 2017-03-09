@@ -54,12 +54,14 @@ header{
 	background:-moz-linear-gradient(white,#BEB2BC);
 	background:linear-gradient(white,#BEB2BC);
 }
+@media screen and (min-width:1366px){
 .terminal-body{
 	padding-left:0.6em;
 	font-size:1.5em;
 	background-color:#201F20;
 	color:white;
 	min-height:98%;
+}
 }
 .name{
 	text-align:center;
