@@ -6,5 +6,6 @@ header{
 	height:320px;
 	margin:0 auto;
 	background: url("img/lake.jpg") top center no-repeat fixed;
+	background-size: cover;
 	
 }
