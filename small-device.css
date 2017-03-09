@@ -1,1 +1,10 @@
-
+* {
+	font-family:ubuntu;
+}
+header{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	background: url("img/lake.jpg") top center no-repeat fixed;
+	
+}
