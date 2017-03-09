@@ -17,11 +17,7 @@ header{
 		min-height:550px;
 	}
 }
-@media screen and (min-width:480px){
-	."terminal-wrap"{
-		width:100px;
-	}
-}
+
 .typed-cursor{
 	opacity: 1;
 	-webkit-animation: blink 0.7s infinite;
