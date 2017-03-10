@@ -84,3 +84,21 @@ header{
 	height:inherit;
 	vertical-align:top;
 }
+
+.projects {
+	width:100%;
+	height:auto;
+
+}
+.project{
+	display:inline-block;
+	width:90%;
+	height:250px;
+	overflow:hidden;
+}
+.project img{
+	width:400px;
+	height:250px;
+	margin:0 auto;
+	
+}
