@@ -76,3 +76,16 @@ header{
 	width:100%;
 	height:auto;
 }
+ 
+.projects{
+	width:100%;
+	height:auto;
+}
+.project{
+	width:90%;
+	height:30vh;
+	overflow:hidden;
+}
+.project img{
+	width:80%;
+}
