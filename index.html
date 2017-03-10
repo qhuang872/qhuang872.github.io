@@ -66,7 +66,7 @@
 			var elemTop = Math.round( $elem.offset().top );
 			var elemBottom = elemTop + $elem.height();
 
-			return ((elemBottom < viewportBottom) && (elemTop > viewportTop));	
+			return ((elemTop < viewportBottom) && (elemBottom > viewportTop));	
 		}
 		function checkAnimation(){
 			var $elem = $("path");
@@ -87,7 +87,6 @@
 	<header>
 		<div class="name">Kevin Huang</div>
 		<div class="terminal-wrap">
-
 			<div class="terminal-title">
 				Terminal
 			</div>
