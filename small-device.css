@@ -78,7 +78,7 @@ header{
 }
  
 .projects{
-	width:100%;
+	width:90vh;
 	height:auto;
 	margin:0 auto;
 	overflow: hidden;
@@ -86,6 +86,7 @@ header{
 .project{
 	display:inline-block;
 	width:90%;
+	margin:0 auto;
 	height:200px;
 	overflow:hidden;
 }
