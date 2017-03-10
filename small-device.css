@@ -64,40 +64,15 @@ header{
 	font-weight:600;
 	color:white;
 }
+
 .skill{
-	width:100%;
-	height:1000px;
-	overflow:hidden;
-}
-.robot{
-	display:inline-block;
-	width:100%;
-	height:700px;
-	overflow:hidden;
+	width: 100%;
+	height: auto;
 }
 .technologies{
-	width:100%;
-	height:300px;
-	display:inline-block;
-}
- 
-.projects{
-	max-width:100%;
+	width:40%;
 	height:auto;
-	margin:0 auto;
-	overflow: hidden;
 }
-.project{
-	display:inline-block;
-	max-width:80vw;
-	margin:0 auto;
-	
-	overflow:hidden;
+.robot{
+	display:none;
 }
-.project img{
-	width:80%;
-}
-.image{
-	width:80%;
-}
-
