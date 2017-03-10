@@ -97,8 +97,17 @@ header{
 	overflow:hidden;
 }
 .project img{
-	width:400px;
-	height:250px;
-	margin:0 auto;
-	
+	display:none;
+}
+#project1{
+	background: url("img/catForum.jpeg") center center cover fixed;
+}
+#project2{
+	background: url("img/spaceship-cropped") center center cover fixed;
+}
+#project3{
+	background: url("img/fallenHeroes.png") center center cover fixed;
+}
+#project4{
+	background: url("img/opusint.png") center cennter cover fixed;
 }
