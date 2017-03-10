@@ -74,7 +74,7 @@ header{
 .main{
 	width:100%;
 }
-.about-me{
+.aboutMe{
 	width:70%;
 	height:350px;
 	margin:0 auto;
@@ -91,7 +91,7 @@ header{
 	-o-background-size: cover;
 	*/
 }
-.about-me-text{
+.aboutMeText{
 	display:inline-block;
 	vertical-align:top;
 	margin-left:-4px;
@@ -100,7 +100,7 @@ header{
 	padding-top:20px;
 
 }
-#about-me{
+#aboutMe{
 	font-size:2em;
 }
 #intro{
@@ -137,7 +137,7 @@ hr{
 .dark{
 	color:black;
 }
-.input-box{
+.inputBox{
 	width: 100%;
 	background-color: black;
 	border-radius: 10px;
@@ -154,7 +154,7 @@ hr{
 h4{
 	margin:0;
 }
-#project-section{
+#projectSection{
 	text-align:center;
 	font-size:2em;
 }

@@ -9,3 +9,51 @@ header{
 	background-size: cover;
 	
 }
+.typed-cursor{
+	opacity:1;
+}
+@keyframes blink{
+	0% {opacity:1;}
+	50% {opacity:0;}
+	100% {opacity:1;}
+}
+.terminal-wrap{
+	width:80vw;
+	height:50vh;
+	margin:0 auto;
+	border:0.5px solid gray;
+	border-radius:10px;
+	overflow:hidden;
+}
+.terminal-title{
+	text-align:center;
+	background:white;
+	background:linear-gradient(white,#BEB2BC);
+	background:-webkit-linear-gradient(white,#BEB2BC);
+}
+.terminal-body{
+	padding-left:0.1em;
+	font-size:1em;
+	background-color:#201F20;
+	color:white;
+	
+}
+.main{
+	width:100vw;
+	height:70vh;
+	margin:0 auto;
+	overflow:hidden;
+
+}
+.selfie{
+	width:100%;
+
+}
+
+.aboutMeText{
+	width:100%;
+	padding-top:1em;
+}
+#aboutMe{
+	font-weight:700;
+}

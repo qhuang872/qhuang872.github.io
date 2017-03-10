@@ -22,7 +22,7 @@
 		});
 	</script>
 	<script>//for terminal emulator
-		jQuery(function($,undefined){
+		$(setTimeout(function(){
 			var skills = {
 						"MVC": ["Django","Flask","Angular.js","Node.js","Rails","React.js(in progress)"],
 						"Database": ["MySQL","MongoDB","SQLite3","PostgresDB"],
@@ -30,8 +30,8 @@
 						"Data analysis": ["Python Pandas","R","RStudio"],
 						"Others": ["Linux Ubuntu","AWS EC2","Nginx","Socket.io","C++","Shell script","Social Media API","Python web scraping","Algorithm"]
 					};
-
-			$(".input-box").terminal(function(command){
+			
+			$(".inputBox").terminal(function(command){
 				if (command !==""){
 						if (command == "skills"){
 							for (var skill in skills){
@@ -52,7 +52,7 @@
 				height: 200,
 				prompt: 'robot> '
 			});
-		});
+		},7000));
 	</script>
 	<script>//for robot animation
 		function isElementInViewport(elem){
@@ -97,10 +97,10 @@
 		</div>	
 	</header>
 	<div class="main">
-		<div class="about-me">
+		<div class="aboutMe">
 			<div class="selfie"></div>
-			<div class="about-me-text">
-				<p id="about-me"><strong>&lt about me /&gt</strong></p>
+			<div class="aboutMeText">
+				<p id="aboutMe"><strong>&lt about me /&gt</strong></p>
 				<div id="intro">
 					<p>I'm obsessed with solving math and algorithm problems. I used R for data analysis and modeling, I also built 'tic tac toe' and blackjack with C++. However, class projects weren't fulfilling enough for me, I was striving for real life problems to solve.</p>
 					<p>After I built my first website with WordPress 'drag and drop' for an internship, I wanted to become a web developer.</p>
@@ -112,7 +112,7 @@
 		<div class="skill">
 			<div class="technologies">
 				<p class="talk">“ Talk to my robot, ask him for my <span class="dark">skills</span> (hint: type skills)</p>
-				<div class="input-box"></div>
+				<div class="inputBox"></div>
 			</div>
 			<div class="robot">	
 				<object>
@@ -314,7 +314,7 @@
 			</div><!--robot-->
 		</div><!--skill-->
 		<hr>
-		<p id="project-section"><strong>&lt Projects /&gt</strong></p>
+		<p id="projectSection"><strong>&lt Projects /&gt</strong></p>
 		<div class="projects">
 			<div id="project1" class="project">
 				<a href="" data-toggle="modal" data-target="#cat"><img src="img/catForum.jpeg" alt="cat-forum-project" class="cat"></a>
