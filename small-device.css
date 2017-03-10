@@ -97,7 +97,9 @@ header{
 	overflow:hidden;
 }
 .project img{
-	max-width:30%;
+	width:auto;
+	max-width:80%;
+	height:auto;
 	
 }
 
