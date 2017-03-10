@@ -28,7 +28,7 @@ header{
 .terminal-title{
 	text-align:center;
 	width:inherit;
-	height:3vh;
+	height:1em;
 	background:white;
 	background:linear-gradient(white,#BEB2BC);
 	background:-webkit-linear-gradient(white,#BEB2BC);
@@ -38,7 +38,7 @@ header{
 	font-size:1.5em;
 	background-color:#201F20;
 	color:white;
-	height:27vh;
+	height:20em;
 }
 .main{
 	width:100vw;
