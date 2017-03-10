@@ -60,7 +60,19 @@ header{
 }
 .name{
 	text-align:center;
-	font-size:3em;
+	font-size:2em;
 	font-weight:600;
 	color:white;
+}
+.skill{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+.robot{
+	display:none;
+}
+.technologies{
+	width:100%;
+	height:auto;
 }
