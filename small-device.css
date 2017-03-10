@@ -19,7 +19,7 @@ header{
 }
 .terminal-wrap{
 	width:80vw;
-	height:50vh;
+	height:30vh;
 	margin:0 auto;
 	border:0.5px solid gray;
 	border-radius:10px;
@@ -27,6 +27,8 @@ header{
 }
 .terminal-title{
 	text-align:center;
+	width:inherit;
+	height:1vh;
 	background:white;
 	background:linear-gradient(white,#BEB2BC);
 	background:-webkit-linear-gradient(white,#BEB2BC);
@@ -36,7 +38,7 @@ header{
 	font-size:1em;
 	background-color:#201F20;
 	color:white;
-	
+	height:29vh;
 }
 .main{
 	width:100vw;
