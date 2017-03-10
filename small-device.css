@@ -79,13 +79,16 @@ header{
  
 .projects{
 	width:100%;
-	height:auto;
+	height:800px;
 }
 .project{
 	width:90%;
-	height:30vh;
+	height:200px;
 	overflow:hidden;
 }
 .project img{
+	width:80%;
+}
+.image{
 	width:80%;
 }
