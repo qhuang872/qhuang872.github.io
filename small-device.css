@@ -95,6 +95,8 @@ header{
 }
 #projectSection{
 	text-align:center;
+	font-size:1.5em;
+	font-weight:600;
 }
 .projects {
 	width:100%;
@@ -122,10 +124,11 @@ header{
 
 #contact-section{
 	font-weight:600;
-	font-size:2em;
+	font-size:1.5em;
 	text-align:center;
 }
 #icons{
+	width:330px;
 	margin:0 auto;
 
 }
