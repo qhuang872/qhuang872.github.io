@@ -67,12 +67,15 @@ header{
 
 .skill{
 	width: 100%;
-	height: auto;
+	height: 400px;
+	overflow:hidden;
+	position:relative;
 }
 .technologies{
-	width:40%;
+	width:100%;
 	height:auto;
+	position:relative;
 }
 .robot{
-	display:none;
+	display:hidden;
 }
