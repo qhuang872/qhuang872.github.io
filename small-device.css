@@ -28,17 +28,17 @@ header{
 .terminal-title{
 	text-align:center;
 	width:inherit;
-	height:1vh;
+	height:3vh;
 	background:white;
 	background:linear-gradient(white,#BEB2BC);
 	background:-webkit-linear-gradient(white,#BEB2BC);
 }
 .terminal-body{
 	padding-left:0.1em;
-	font-size:1em;
+	font-size:1.5em;
 	background-color:#201F20;
 	color:white;
-	height:20vh;
+	height:27vh;
 }
 .main{
 	width:100vw;
