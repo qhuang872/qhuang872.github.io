@@ -5,7 +5,7 @@ header{
 	width: 100%;
 	margin: 0 auto;
 	min-height: 450px;
-	background: url(img/lake.jpg) top center no-repeat fixed;
+	background: url("img/lake.jpg") top center no-repeat fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
