@@ -65,7 +65,7 @@ header{
 	color:white;
 }
 .skill{
-	width:100%;
+	width:100vw;
 	height:auto;
 	overflow:hidden;
 }
@@ -73,12 +73,12 @@ header{
 	display:none;
 }
 .technologies{
-	width:100%;
+	width:100vw;
 	height:auto;
 }
  
 .projects{
-	width:90vw;
+	max-width:90vw;
 	height:auto;
 	margin:0 auto;
 	overflow: hidden;
