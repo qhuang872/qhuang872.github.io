@@ -120,4 +120,12 @@ header{
 	width:auto;
 }
 
+#contact-section{
+	font-weight:600;
+	font-size:2em;
+	text-align:center;
+}
+#icons{
+	margin:0 auto;
 
+}
