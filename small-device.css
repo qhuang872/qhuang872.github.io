@@ -72,10 +72,15 @@ header{
 	position:relative;
 }
 .technologies{
-	width:100%;
-	height:auto;
-	position:relative;
+	width:50%;
+	display:inline-block;
+	height:inherit;
+	
 }
 .robot{
-	display:hidden;
+	display:inline-block;
+	width:50%;
+	margin-left:-4px;
+	height:inherit;
+	vertical-align:top;
 }
