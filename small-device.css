@@ -65,29 +65,29 @@ header{
 	color:white;
 }
 .skill{
-	width:100vw;
-	height:auto;
+	width:100%;
+	height:360px;
 	overflow:hidden;
 }
 .robot{
 	display:none;
 }
 .technologies{
-	width:100vw;
-	height:auto;
+	width:100%;
+	height:inherit;
 }
  
 .projects{
-	max-width:90vw;
+	max-width:100%;
 	height:auto;
 	margin:0 auto;
 	overflow: hidden;
 }
 .project{
 	display:inline-block;
-	width:90%;
+	max-width:80vw;
 	margin:0 auto;
-	height:200px;
+	
 	overflow:hidden;
 }
 .project img{
