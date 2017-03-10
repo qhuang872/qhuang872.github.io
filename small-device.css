@@ -79,7 +79,9 @@ header{
 }
 .robot{
 	display:inline-block;
-	width:50%;
+	max-width:50%;
+	width:auto;
+	height:auto;
 	margin-left:-4px;
 	height:inherit;
 	vertical-align:top;
