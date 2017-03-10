@@ -106,13 +106,18 @@ header{
 	width:90%;
 	height:auto;
 	margin:0 auto 10px;
-	padding-left:10%;
+	padding-left:20%;
 }
 .project img{
 	width:auto;
 	max-width:80%;
 	height:auto;
 	margin:0 auto;
+}
+.image{
+	max-width:80%;
+	height:auto;
+	width:auto;
 }
 
 
