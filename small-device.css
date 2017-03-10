@@ -58,3 +58,9 @@ header{
 #aboutMe{
 	font-weight:700;
 }
+.name{
+	text-align:center;
+	font-size:3em;
+	font-weight:600;
+	color:white;
+}
