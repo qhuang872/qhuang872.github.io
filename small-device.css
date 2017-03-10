@@ -132,3 +132,8 @@ header{
 	margin:0 auto;
 
 }
+#phone-icon,
+#email-icon,
+#github-icon{
+	margin-right:40px;
+}
